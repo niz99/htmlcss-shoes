@@ -29,20 +29,16 @@ nav ul li a{
     color: black;
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
     box-shadow: 3px 3px 3px 3px grey;
 }
 
 section{
     height: 100vh;
+    position: relative;
 }
 
-#superga{
-    background-color: red;
-    color: yellow;
-}
-
-img {
+img{
     height: 25rem;
     position: absolute;
     top: 50%;
@@ -58,10 +54,24 @@ h2{
     line-height: 2rem;
 }
 
-.text-container {
+.title{
     position: absolute;
     bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
 }
 
+#tommy{
+    background-color: green;
+    color: yellow;
+}
+
+#converse{
+    background-color: yellow;
+    color: green;
+}
+
+#superga{
+    background-color: red;
+    color: yellow;
+}
